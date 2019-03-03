@@ -5,6 +5,9 @@ class Task < ApplicationRecord
   # 検証用メソッドの登録
   validate :validate_name_not_including_comma
 
+  # has_manyとの対
+  belongs_to :user
+
   private
 
   def validate_name_not_including_comma
