@@ -74,3 +74,5 @@ gem 'rails_autolink'
 gem 'kaminari'
 
 gem 'sidekiq'
+
+gem 'webpacker'
