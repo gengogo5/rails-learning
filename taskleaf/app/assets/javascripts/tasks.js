@@ -1,4 +1,4 @@
-document.addEventListener('turbolinks:load', function() {
+window.onload = function() {
   document.querySelectorAll('td').forEach(function(td) {
     td.addEventListener('mouseover', function(e) {
       e.currentTarget.style.backgroundColor = '#eff';
